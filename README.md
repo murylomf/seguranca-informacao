@@ -5,7 +5,11 @@ Projeto desenvolvido para a disciplina de Segurança da Informação
 ## Banco de Dados
 MySql
 
+## Linguagem
+PHP
+
 ## Enunciado
+
 > Forneça uma interface para autenticar usuários;
 
 > Forneça uma interface para consultas em um banco de dados após a autenticação do usuário;
