@@ -15,7 +15,6 @@
    
     include("vsessao.php");  
 
-    //Listagem de Usuários
     if($op=="lc")
     {
         $conec=conec::conecta_mysql("localhost", "root", "", "TrabalhoMurylo");
@@ -39,6 +38,9 @@
             }
             while($linha=$sth->fetch(PDO::FETCH_NUM,PDO::FETCH_ORI_NEXT));
                 print"</TABLE><br><a href='sistema.php'>Voltar</a>";
+                print "<form method='post' action='busca.php'>                            
+                            <p align='center'><input type='text' placeholder='Buscar contato' name='contato'><input type='submit' value='Buscar'></p>
+                        </form>";
         }
         catch(Exception $e)
         { 
