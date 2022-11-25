@@ -20,3 +20,12 @@ consultas ao banco de dados;
 
 > Utilize mecanismos para prevenção contra SQL Injection (SQLi) e contra Cross-Site
 Scripting (XSS).
+
+
+### Antes de rodar:
+- Executar arquivo `database.sql` no phpmyadmin
+
+### Usuários (user/senha): 
+- admin/admin
+- usuario1/abc123
+- mumf/p@ssw0rd
